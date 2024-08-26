@@ -1,0 +1,48 @@
+2024-08-21 10:25:47,750 - INFO - 🔍 Extracting JAR file: common-lang3.jar...
+2024-08-21 10:25:47,835 - INFO - ✅ Extraction complete.
+2024-08-21 10:25:47,835 - INFO - 🔎 Reading dependencies from MANIFEST.MF...
+2024-08-21 10:25:47,835 - INFO - 🔎 Checking for vulnerabilities in dependencies...
+2024-08-21 10:25:47,836 - INFO - 🔍 Checking for CVEs...
+2024-08-21 10:25:47,836 - INFO - ✅ No CVEs found for the detected dependencies.
+2024-08-21 10:25:47,836 - INFO - 🔍 Analyzing class files for CVEs...
+2024-08-21 10:25:47,838 - INFO - 🔍 Checking for CVEs...
+2024-08-21 10:25:47,838 - INFO - ✅ No CVEs found for the detected dependencies.
+2024-08-21 10:25:47,839 - INFO - 🔍 Running SpotBugs analysis...
+2024-08-21 10:26:28,042 - INFO - ✅ SpotBugs Analysis complete. Report saved to: ./spotbugs-results.html
+2024-08-21 10:26:28,042 - INFO - SpotBugs Analysis complete. Report saved to: ./spotbugs-results.html
+2024-08-21 10:26:28,042 - INFO - 
+2024-08-21 10:26:28,042 - ERROR - The following classes needed for analysis were missing:
+  javafx.scene.shape.Circle
+  javafx.fxml.Initializable
+  javafx.application.Application
+  javafx.scene.paint.Color
+  javafx.scene.paint.Paint
+  javafx.scene.control.Alert$AlertType
+  javafx.scene.control.Alert
+  javafx.scene.control.ButtonType
+  javafx.geometry.Point2D
+  javafx.event.ActionEvent
+  javafx.scene.input.MouseEvent
+  javafx.scene.shape.Rectangle
+  javafx.scene.control.Button
+  javafx.scene.layout.GridPane
+  javafx.scene.shape.Shape
+  javafx.scene.layout.Pane
+  javafx.collections.ObservableList
+  javafx.util.Duration
+  javafx.animation.TranslateTransition
+  javafx.application.Platform
+  javafx.scene.control.Label
+  javafx.scene.control.TextField
+  javafx.stage.Stage
+  javafx.fxml.FXMLLoader
+  javafx.scene.control.MenuBar
+  javafx.beans.property.DoubleProperty
+  javafx.scene.Scene
+  javafx.scene.control.Menu
+  javafx.scene.control.MenuItem
+  javafx.scene.control.SeparatorMenuItem
+  javafx.event.EventHandler
+
+2024-08-21 10:26:28,042 - INFO - 🎉 Analysis complete.
+2024-08-21 10:26:28,043 - INFO - JAR analysis complete.
